@@ -7,6 +7,7 @@ import Navigation from './components/Navigation';
 import About from './components/sections/About';
 import Experience from './components/sections/Experience';
 import Skills from './components/sections/Skills';
+import PersonalProject from './components/sections/PersonalProject';
 import Certifications from './components/sections/Certifications';
 import Education from './components/sections/Education';
 import Contact from './components/sections/Contact';
@@ -22,6 +23,8 @@ function App() {
         return <Experience />;
       case 'skills':
         return <Skills />;
+      case 'personalproject':
+        return <PersonalProject />;
       case 'certifications':
         return <Certifications />;
       case 'education':
